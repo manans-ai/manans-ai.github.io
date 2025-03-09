@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import './DebateInterface.css';
 
 const DebateInterface = ({ selectedModels }) => {
   const [messages, setMessages] = useState([]);
